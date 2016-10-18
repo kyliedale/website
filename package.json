@@ -1,21 +1,22 @@
 {
-  "name": "your-app",
+  "name": "personal-website",
   "description": "Description",
-  "author": "Your Name",
+  "author": "Kylie Dale",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kyliedale/website"
   },
   "scripts": {
     "start": "brunch watch --server",
-    "prod": "brunch build --production"
+    "build": "brunch build --production",
+    "clean": "rm -rf public/"
   },
   "dependencies": {
     "sass-brunch": "^2.7.0"
   },
   "devDependencies": {
-    "auto-reload-brunch": "^2.0.0",
+    "auto-reload-brunch": "^2.7.1",
     "babel-brunch": "~6.0.0",
     "babel-preset-es2015": "~6.3.13",
     "brunch": "^2.4.0",

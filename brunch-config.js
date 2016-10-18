@@ -8,7 +8,11 @@ module.exports = {
     },
     stylesheets: {joinTo: 'app.css'}
   },
-
+  server: {
+    hostname: '0.0.0.0',
+    port: 8080,
+    noPushState: true,
+  },
   plugins: {
     babel: {presets: ['es2015']}
   }
