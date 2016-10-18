@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  /*background-color: #F0F0F0;*/
+  background-color: #F0F0F0;
 }
 
 .header {
@@ -34,10 +34,20 @@ body {
   }
 }
 
+.bio {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #3f3f3f;
+}
+
+.bio-title {
+  font-weight: 300;
+}
+
 h1 a {
   color: black;
   font-weight:300;
-  color: #666666;
+  color: #ffffff;
   margin-left: 0 auto;
   text-decoration: none;
 }
@@ -50,7 +60,7 @@ ul#horizontal-menu {
   margin: 0 auto;
   text-align: center;
   /*background-color: #4F4F4F;*/
-  background-image: url('wood-textures.jpg');
+  /*background-image: url('../images/wood-textures.jpg');*/
 
   padding: 1em 0;
 }
