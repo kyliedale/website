@@ -1,3 +1,51 @@
 /* Add resume specific styling */
 
 @import url("base.css");
+
+.content {
+  color: #545454;
+}
+
+.header_links {
+  margin-top: 14%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.linkedin {
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #545454;
+}
+
+.resume-table {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.education {
+  margin: 20px;
+  display: inline-block;
+  /*text-align: left;*/
+}
+
+.honors {
+  margin: 20px;
+  display: inline-block;
+  /*text-align: left;*/
+}
+
+.coursework {
+  margin: 10px;
+  display: inline-block;
+}
+
+.skills {
+  margin: 10px 110px;
+  display: inline-block;
+}
