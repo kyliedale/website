@@ -2,20 +2,61 @@
 
 @import url("base.css");
 
-#mc_embed_signup form {
+.contact {
   background: #F0F0F0;
   clear: left;
-  font: 14px Helvetica,Arial,sans-serif;
+  font: 14px Helvetica, Arial, sans-serif;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 125px;
 }
 
-input.email {
-  display: block;
-}
-
-.send-message {
+.welcome-message {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 20px;
   text-align: center;
+}
+
+.form-text {
+  font: 14px Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #7e7e7e;
+  font-weight: 100;
+  text-align: left;
+  margin: 10px 0;
+}
+
+input {
+  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
+  font-size: 15px;
+  vertical-align: top;
+  border: 1px solid #ABB0B2;
+  border-radius: 3px;
+  color: #343434;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 32px;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+
+input.name {
+  display: inline-block;
+  float: left;
+  width: 49%;
+}
+
+.name.first {
+  margin-right: 10px;
+}
+
+.name.last {
+  float: right;
+}
+
+input.email-input {
+  display: block;
+  width: 100%;
 }
 
 .message {
@@ -31,17 +72,17 @@ input.email {
   padding: 0px 0.4em;
   display: inline-block;
   margin: 0;
-  width: 350px;
+  width: 650px;
   height: 125px;
   vertical-align: top;
   margin-bottom: 20px;
+  line-height: 30px;
 }
 
 .button {
   font-size: 13px;
   border: none;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
+  float: right;
   border-radius: 3px;
   letter-spacing: .03em;
   color: #fff;
@@ -51,6 +92,6 @@ input.email {
   line-height: 32px;
   padding: 0 18px;
   display: inline-block;
-  margin: 0;
+  /*margin: 0;*/
   transition: all 0.23s ease-in-out 0s;
 }
