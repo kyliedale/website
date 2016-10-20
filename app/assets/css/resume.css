@@ -49,3 +49,31 @@ a {
   margin: 10px 110px;
   display: inline-block;
 }
+
+.experience {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  display: inline-block;
+}
+
+.time {
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.company {
+  display: inline-block;
+}
+
+.location {
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.details {
+  display: block;
+}
