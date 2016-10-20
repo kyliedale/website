@@ -26,9 +26,7 @@ module.exports = {
       ]
     },
     sass: {
-      mode: 'native',
-      options: { includePaths: ['node_modules/nio-scss/scss'] },
-      functions: require('nio-scss')
+      mode: 'native'
     }
   }
 }
