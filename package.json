@@ -1,11 +1,11 @@
 {
-  "name": "nio-brunchy",
-  "description": "A Brunch.io skeleton for prototyping/bootstrapping a nio frontend.",
-  "author": "J. Holmes",
+  "name": "personal-website",
+  "description": "Kylie's personal website.",
+  "author": "Kylie Dale",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nioinnovation/brunchy"
+    "url": "https://github.com/kyliedale/website"
   },
   "scripts": {
     "start": "brunch watch --server",
@@ -32,7 +32,6 @@
     "javascript-brunch": "^2.0.0",
     "jsenv-brunch": "^2.0.0",
     "mocha": "^3.1.0",
-    "nio-scss": "git+ssh://git@github.com:nioinnovation/brunchy.git#nio-scss",
     "postcss-brunch": "^0.5.0",
     "sass-brunch": "^2.7.0",
     "uglify-js-brunch": "^2.0.1"
@@ -45,7 +44,6 @@
     "kefir": "^3.5.2",
     "lodash": "^4.16.4",
     "moment": "^2.15.1",
-    "niojs": "^1.1.5",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "socket.io-client": "^1.5.0"

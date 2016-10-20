@@ -1,0 +1,17 @@
+/* Add home page specific styling */
+
+@import url("base.css");
+
+ul#horizontal-menu {
+  background-image: none;
+}
+
+.bio {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #3f3f3f;
+}
+
+.bio-title {
+  font-weight: 300;
+}
