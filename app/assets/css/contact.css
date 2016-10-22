@@ -72,7 +72,7 @@ input.email-input, input.subject{
   padding: 0px 0.4em;
   display: inline-block;
   margin: 0;
-  width: 650px;
+  width: 100%;
   height: 125px;
   vertical-align: top;
   margin-bottom: 20px;
