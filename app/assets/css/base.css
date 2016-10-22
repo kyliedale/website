@@ -6,8 +6,9 @@ body {
 }
 
 .content {
-  max-width: 650px;
+  max-width: 800px;
   margin: 0 auto;
+  color: #545454;
 }
 
 .header {
@@ -31,6 +32,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 2.5em;
   font-weight: 700;
+  color: #545454;
 }
 
 @media only screen and (min-width: 768px) {
