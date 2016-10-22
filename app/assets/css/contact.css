@@ -54,7 +54,7 @@ input.name {
   float: right;
 }
 
-input.email-input {
+input.email-input, input.subject{
   display: block;
   width: 100%;
 }
