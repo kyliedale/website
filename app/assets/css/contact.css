@@ -17,8 +17,8 @@
   text-align: center;
 }
 
-.form-text {
-  font: 14px Helvetica, Arial, sans-serif;
+.form-text, .name-label {
+  font: Helvetica, Arial, sans-serif;
   font-size: 15px;
   color: #7e7e7e;
   font-weight: 100;
@@ -27,8 +27,7 @@
 }
 
 input {
-  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
-  font-size: 15px;
+  font-family: 15px "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
   vertical-align: top;
   border: 1px solid #ABB0B2;
   border-radius: 3px;
@@ -52,6 +51,16 @@ input.name {
 
 .name.last {
   float: right;
+}
+
+.name-label {
+  position: relative;
+  top: -15px;
+  font-size: 13px;
+}
+
+.label-first {
+  margin-right: 342px;
 }
 
 input.email-input, input.subject{
