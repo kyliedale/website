@@ -52,6 +52,7 @@ h1 a {
 }
 
 ul#horizontal-menu {
+  z-index: 1;
   top: 0px;
   list-style: none;
   position: fixed;
