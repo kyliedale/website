@@ -45,6 +45,12 @@ input.name {
   width: 49%;
 }
 
+textarea:focus, input:focus {
+  border-color: #67991c;
+  box-shadow: 0 1px 1px #67991c inset, 0 0 8px #67991c;
+  outline: 0 none;
+}
+
 .name.first {
   margin-right: 10px;
 }
